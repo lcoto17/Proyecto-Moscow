@@ -1,0 +1,539 @@
+Message-ID: <1644811525.11.1526253548713@3e2b7fda4e58>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_10_1595718643.1526253548713"
+
+------=_Part_10_1595718643.1526253548713
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Software Structure &amp; Documentation</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Software Structure &amp; Documentation</h1>
+    <div class=3D"Section1">
+        <div class=3D"contentLayout2">=20
+<div class=3D"columnLayout single" data-layout=3D"single">=20
+<div class=3D"cell normal" data-type=3D"normal">=20
+<div class=3D"innerCell">=20
+<h2 style=3D"text-align: center;" id=3D"SoftwareStructure&amp;Documentation=
+-TeamFoundationServerrepository:SettheprojectlinkinTFS..."><strong>Team Fou=
+ndation Server repository:&nbsp;</strong></h2>
+<p><strong>Used Technologies:</strong></p>
+<ol>
+<li></li>
+</ol>
+<p><strong>UAT - Application link:&nbsp;<strong><span class=3D"status-macro=
+ aui-lozenge aui-lozenge-error">PENDING</span></strong></strong></p>
+<p><strong>Pro - Application link:&nbsp;<span class=3D"status-macro aui-loz=
+enge aui-lozenge-error">PENDING</span></strong></p>
+<p><br></p>
+</div>=20
+</div>=20
+</div>=20
+<div class=3D"columnLayout single" data-layout=3D"single">=20
+<div class=3D"cell normal" data-type=3D"normal">=20
+<div class=3D"innerCell">=20
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 98.=
+4507%;">
+<colgroup>
+<col style=3D"width: 14.384%;">
+<col style=3D"width: 85.6161%;">
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"highlight-grey confluenceTd" style=3D"text-align: center;" col=
+span=3D"2" data-highlight-colour=3D"grey"><p><strong>Golden Rules</strong><=
+/p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<h2 style=3D"text-align: center;" id=3D"SoftwareStructure&amp;Documentation=
+-GoldenRules"><strong>Golden Rules</strong></h2>
+<p><br></p>
+</div></td>
+<td class=3D"confluenceTd">
+<ol>
+<li></li>
+</ol></td>
+</tr>
+<tr>
+<th style=3D"text-align: center;" colspan=3D"2" class=3D"confluenceTh">Data=
+ modeling</th>
+</tr>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd"><p><strong>Databas=
+e</strong></p><p><br></p></td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><strong>Development Information:</strong></p>
+<ol>
+<li>Server name:&nbsp;</li>
+<li>Database name:&nbsp;</li>
+<li>Connection type: </li>
+<li>Security group or access:&nbsp;</li>
+</ol>
+<p><strong>UAT Information:</strong></p>
+<ol>
+<li>Server name:&nbsp;</li>
+<li>Database name:&nbsp;</li>
+<li>Connection type: </li>
+<li>Security group or access:&nbsp;</li>
+</ol>
+<p><strong>Productive Information:</strong></p>
+<ol>
+<li>Server name:&nbsp;</li>
+<li>Database name:&nbsp;</li>
+<li>Connection type: </li>
+<li>Security group or access:&nbsp;</li>
+</ol>
+</div></td>
+</tr>
+<tr>
+<td style=3D"text-align: center;" colspan=3D"1" class=3D"confluenceTd"><p><=
+strong>ETLs</strong></p><p><br></p></td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<p><strong>General information</strong></p>
+<ol>
+<li>Data Tools IDE: </li>
+</ol>
+<p><strong>UAT Information:</strong></p>
+<ol>
+<li>Execution schedule:&nbsp;Occurs every week on Monday, Tuesday, Wednesda=
+y, Thursday, Friday at 10:00:00 a. m..</li>
+<li>Publication Server:&nbsp;CR2035485W9</li>
+</ol>
+<p><strong>Productive Information:</strong></p>
+<ol>
+<li>Execution schedule: <strong><br class=3D"_mce_tagged_br"></strong></li>
+<li><span>Publication Server:&nbsp;</span></li>
+</ol>
+<p><strong>Packages details:</strong></p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">Name</th>
+<th class=3D"confluenceTh">Source</th>
+<th class=3D"confluenceTh">Description</th>
+</tr>
+<tr>
+<td class=3D"confluenceTd"></td>
+<td class=3D"confluenceTd"></td>
+<td class=3D"confluenceTd"></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div></td>
+</tr>
+<tr>
+<td class=3D"highlight-grey confluenceTd" style=3D"text-align: center;" col=
+span=3D"2" data-highlight-colour=3D"grey"><strong>Interoperability</strong>=
+</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<h2 style=3D"text-align: center;" id=3D"SoftwareStructure&amp;Documentation=
+-WebService"><strong>Web Service</strong></h2>
+<p><br></p>
+</div></td>
+<td class=3D"confluenceTd">
+<div class=3D"content-wrapper">
+<ol>
+<li><p><strong>Web services for UAT:</strong></p>
+<ol>
+<li><p><br></p></li>
+</ol></li>
+<li><strong>Web services for production:</strong>
+<ol>
+<li><p><br></p></li>
+</ol></li>
+<li><p><strong>Web Methods used:</strong></p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">Web Service Name</th>
+<th class=3D"confluenceTh">Web method</th>
+<th class=3D"confluenceTh">Description of usability in application</th>
+</tr>
+<tr>
+<td class=3D"confluenceTd"></td>
+<td class=3D"confluenceTd"></td>
+<td class=3D"confluenceTd"></td>
+</tr>
+</tbody>
+</table>
+</div><p><br></p><p><br></p></li>
+</ol>
+</div></td>
+</tr>
+<tr>
+<td class=3D"highlight-grey confluenceTd" style=3D"text-align: center;" col=
+span=3D"2" data-highlight-colour=3D"grey"><strong>Application Layers</stron=
+g></td>
+</tr>
+<tr>
+<td style=3D"text-align: center;" colspan=3D"1" class=3D"confluenceTd"><p><=
+strong>Front-End</strong></p><p><br></p></td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<ol>
+<li><p>Third party libraries or pluggins detail:</p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">Library name</th>
+<th class=3D"confluenceTh">Library version</th>
+<th class=3D"confluenceTh">Library usage</th>
+</tr>
+<tr>
+<td class=3D"confluenceTd"></td>
+<td class=3D"confluenceTd"></td>
+<td class=3D"confluenceTd"></td>
+</tr>
+</tbody>
+</table>
+</div><p></p></li>
+</ol></td>
+</tr>
+<tr>
+<td style=3D"text-align: center;" colspan=3D"1" class=3D"confluenceTd"><p><=
+strong>Back-End</strong></p><p><br></p></td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<ol>
+<li><p>Third party libraries or frameworks detail:</p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">Name</th>
+<th class=3D"confluenceTh">Version</th>
+<th class=3D"confluenceTh">Usage</th>
+</tr>
+<tr>
+<td class=3D"confluenceTd"></td>
+<td class=3D"confluenceTd"></td>
+<td class=3D"confluenceTd"></td>
+</tr>
+</tbody>
+</table>
+</div><p></p></li>
+</ol></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><h2 style=3D"text-align: center;" =
+id=3D"SoftwareStructure&amp;Documentation-Reporting"><strong>Reporting</str=
+ong></h2><p><br></p></td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<ol>
+<li>Designing Tool: </li>
+<li>Server: </li>
+<li><p>Reports:</p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">Name</th>
+<th class=3D"confluenceTh">Description</th>
+<th class=3D"confluenceTh">Source</th>
+<th class=3D"confluenceTh">Parameters</th>
+</tr>
+<tr>
+<td class=3D"confluenceTd"></td>
+<td class=3D"confluenceTd"></td>
+<td class=3D"confluenceTd"></td>
+<td class=3D"confluenceTd"></td>
+</tr>
+</tbody>
+</table>
+</div></li>
+</ol></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><h2 style=3D"text-align: center;" =
+id=3D"SoftwareStructure&amp;Documentation-Security"><strong>Security</stron=
+g></h2></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>&nbsp;Security roles and action=
+s:</p>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<thead>
+<tr>
+<th class=3D"confluenceTh"><p>Role / Access</p></th>
+<th class=3D"confluenceTh"><p>Actions&nbsp;/ Permissions</p></th>
+<th class=3D"confluenceTh"><p>Special permissions</p></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class=3D"confluenceTd"></td>
+<td class=3D"confluenceTd">
+<ol>
+<li></li>
+</ol></td>
+<td class=3D"confluenceTd"></td>
+</tr>
+</tbody>
+</table>
+</div></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><p style=3D"text-align: center;"><=
+strong>Maintenance</strong></p><p><br></p></td>
+<td colspan=3D"1" class=3D"confluenceTd">
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">Action</th>
+<th class=3D"confluenceTh">Assigned</th>
+<th class=3D"confluenceTh">Description</th>
+<th class=3D"confluenceTh">Frecuency</th>
+</tr>
+<tr>
+<td class=3D"confluenceTd"></td>
+<td class=3D"confluenceTd"></td>
+<td class=3D"confluenceTd"></td>
+<td class=3D"confluenceTd"><span style=3D"color: rgb(112,112,112);"><span><=
+em>Set the maintenance action frecuency... </em></span></span></td>
+</tr>
+</tbody>
+</table>
+</div></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>=20
+</div>=20
+</div>=20
+</div>
+    </div>
+</body>
+</html>
+------=_Part_10_1595718643.1526253548713--
